@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-body d-none">
+        <img class="flag" src="https://flagcdn.com/w320/hn.png" alt="flag">
+        <input class="game-input" type="text" placeholder="Enter Country name with **CAPITAL** Letter (just first) in English">
+        <button class="game-submit" type="button">Submit</button>
+
+      </div>
+      <!-- About Game -->
+      <div>
+        <h3 class="timer d-none">60</h3>
+        <button class="start-game-button">Start Game</button>
+        <p class="d-none time-out">Sizin Vaxtiniz Bitib.Duzgun cavab sayiniz <span class="correct-answers">0</span></p>
+        <button class="start-new-game-button d-none">Start New Game</button>
+      </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
